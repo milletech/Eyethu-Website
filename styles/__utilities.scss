@@ -1,0 +1,54 @@
+.heading {
+    margin: 6rem auto;
+    text-align: center;
+    font-size: 2.6rem;
+    color: $text-color;
+    font-family: 'PT Sans', sans-serif;
+}
+
+;
+.alert-pop {
+    margin: 4rem auto;
+    text-align: center;
+    h3 {
+        border: solid 1px $primary-color;
+        font-size: 2rem;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1.5rem 1rem;
+        font-family: 'PT Sans', sans-serif;
+        // color: $primary-color;
+        border-radius: 4px;
+    }
+}
+
+.highlight {
+    color: $primary-color;
+}
+
+.price {
+    color: $primary-color;
+    font-weight: bold;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-toggler {
+    outline: none!important;
+    align-self: center;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-bars {
+    font-size: 4rem;
+    color: $text-color;
+}
